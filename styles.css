@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+body {
+    font: 12px Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+header { 
+    background-color: rgba(169, 0, 0, 0.75);
+    box-sizing: border-box;
+    column-count: 2;
+    column-gap: 3%;
+    height: 250px;
+}
+
+header img {
+    margin-left: 1rem;
+    height: 250px;   
+}
+
+.headerSemLogo {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.enderecoENav {
+    margin-top: 1rem;
+}
+
+header h2 {
+    display: inline-block;
+    margin-left: auto;
+    font-size: 4em;
+    color: green;
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 2rem;
+}
+
+.enderecoContato{
+    display: inline-block;
+    text-align: right;
+    color: white;
+    font-weight: bolder;
+    padding: 1em;
+}
+
+nav {
+    background-color: white;
+    padding: 1em;
+    display: inline-block;    
+    margin-top: 1rem;
+}
+
+nav a {
+    color: rgb(169, 0, 0);
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+nav a:hover {
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+main article {
+    column-count: 3;    
+}
+
+main h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    color: green;    
+}
+
+main article section {
+    column-width: 33.333333%;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.5);
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+main article section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.card p {
+    padding-top: 0.4em;
+}
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+    display: block;
+    background-color: rgb(0, 155, 52, 0.8);
+    height: 100px;
+}
+
+footer p {
+    position: relative;
+    top: 3em;
+    font-size: 1.2em;
+}
+
+.itensPromo {
+    background-color: lightgray;
+    padding: 2em;
+    font-size: 1.5em;
+}
+
+.itensPromo p {
+    margin: 0.5em 0;
+}
+
+.caixaInput {
+    padding: 0.8em 0.4em;
+    margin-top: 2em;
+    width: 30em;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.caixaInput:hover {
+    border: 1px solid green;
+}
+
+.comentaInput {
+    width: 800px;
+    height: 200px;
+    margin-top: 2em;    
+}
+
+.caixaComentario {
+    width: 80%;
+    height: 100%;  
+    background-color: white;    
+    margin-top: 1em;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    padding: 0.8em 0.4em;
+}
+
+.caixaComentario:hover {
+    border: 1px solid green;
+}
+
+.entreEmContato {
+    margin: 0 1em 5em 1em;
+}
+
+.enviar {
+    float: right;
+    position: relative;
+    bottom: 4em;
+    right: 4em;
+    background-color: rgb(169, 0, 0);
+    box-sizing: border-box;
+    border-radius: 2em;
+    color: white;
+    font-size: 1.2em;
+    width: 10em;
+    height: 4em;
+    font-weight: bold;
+    margin-top: 3em;
+}
+
+.enviar:hover {
+    background-color: rgb(169, 0, 0, 0.3);
+}
+
+.sobre {
+    line-height: 1.2em;
+    padding: 1em;
+}
