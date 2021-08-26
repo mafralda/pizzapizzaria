@@ -13,6 +13,7 @@ body {
 
 header { 
     background-color: rgba(169, 0, 0, 0.75);
+    background-image: url(images/logo.png) no-repeat;
     box-sizing: border-box;
     column-count: 2;
     column-gap: 3%;
@@ -26,11 +27,7 @@ header img {
 
 .headerSemLogo {
     display: inline-block;
-    margin-top: 1rem;
-}
-
-.enderecoENav {
-    margin-top: 1rem;
+    margin-top: 20%;
 }
 
 header h2 {
@@ -54,8 +51,9 @@ header h2 {
 nav {
     background-color: white;
     padding: 1em;
-    display: inline-block;    
-    margin-top: 1rem;
+    column-count: 5;
+    text-align: center;
+    column-rule: 4px dotted green;
 }
 
 nav a {
@@ -63,16 +61,11 @@ nav a {
     font-size: 1.5em;
     font-weight: bolder;
     text-decoration: none;
-    margin-right: 1rem;
-}
-
-nav a:last-child {
-    margin-right: 0;
 }
 
 nav a:hover {
     color: green;
-    border-bottom: 1px solid green;
+    font-size: 1.1rem;
 }
 
 main {
